@@ -1,0 +1,122 @@
+#content {
+			width: 960px;
+			margin: 0 auto;
+			font-family: 'Roboto Slab';
+			background-color: rgba(240,200,97,0.3);
+     }
+		
+		h1,h2,h3,h5,h6 {
+     	color: #ED7037;
+			text-align: center;
+			font-family: 'Rock Salt';
+			font-size: 150%;
+			line-height: 150%;
+      padding: 10px;
+		} 
+
+		h4 {
+     	color: #ED7037;
+			text-align: center;
+			font-family: 'Rock Salt';
+			font-size: 120%;
+			} 
+		
+    .leftcol, .rightcol{
+      width: 48%;        
+      }
+            
+		nav {
+			padding-left: 150px;
+			background-color: rgba(74,111,202,0.8);
+			color: #E9EB37;
+			font-family: 'Rock Salt';
+			margin-top: -100px;
+			}
+			
+		li {
+			display: inline;
+			}
+			
+		a:link, a:visited, a:active {
+    	color: #E9EB37;
+			text-decoration: none;
+			}
+
+		a:hover {
+			color: #ED7037;
+			}
+		
+		#logo{
+			position: relative;
+			padding: 20px;
+			background-color: white;
+			border: #ED7037 3px solid;
+			border-radius:10px;
+			width: 100px;
+			margin-left: 20px;
+		}
+
+    .pspec {
+       padding: 10px;
+    }
+                
+		.leftcol, .rightcol {
+			width: 50%;
+			flex: 1 0 15em;
+		}
+			
+		#section1, #section2 {
+			display: flex;
+			flex-flow: row wrap;
+			margin: 5px;
+			align-items: center;
+		}
+			
+		#contact{
+			display: flex;
+			flex-flow: column wrap;
+		}
+
+		.pcon {
+			text-align: center;
+		}
+
+		iframe{
+			margin-left: 300px;
+		}
+
+		#img1 {
+			width: 450px;
+			padding: 10px;
+		}
+
+		#img3 {
+			width: 420px;
+			padding-right: 50px;
+			padding-left: 80px;
+		}
+
+		#img4 {
+			width: 250px;
+			padding-left: 50px;
+		}
+		
+		#banner{
+			margin: 10px;
+		}
+		
+		footer {
+			background-color: rgba(74,111,202,0.8);
+			color: #E9EB37;
+			display: flex;
+			align-items: center;
+			margin: 5px;
+    }
+
+    #info {
+      padding: 10px;
+     }
+
+		.socialmedia {
+			padding: 5px;
+		}
